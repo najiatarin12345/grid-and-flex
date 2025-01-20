@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grid and flex</title> 
-     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Navbar</title> 
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Logo Section -->
+            <div class="flex items-center space-x-2 text-white text-2xl font-bold">
+                <!-- Logo Image -->
+                <img src="./download (4).jpg" alt="Logo" class="w-10 h-10 rounded-full">
+                <!-- Website Name -->
+                <span>MyWebsite</span>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="space-x-4">
+                <a href="#" class="text-white hover:text-blue-300">Home</a>
+                <a href="#" class="text-white hover:text-blue-300">About</a>
+                <a href="#" class="text-white hover:text-blue-300">Services</a>
+                <a href="#" class="text-white hover:text-blue-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
 </body>
 </html>
